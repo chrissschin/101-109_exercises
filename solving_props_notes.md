@@ -25,3 +25,12 @@ make examples / test cases
 ASK QUESTIONS TO VERIFY YOUR UNDERSTANDING
 
 ** lets say input doesnt match requirement. since it wasn't asked. You look for potential edge cases. **
+
+
+working with requirements not so explicit examples. like when they just give you an example but not much copy.
+    - turn them explicit
+    input :
+        - ask for edge cases. what happens when its an even number?
+    output :
+        - ask more specifically whats returned on the output
+    - model the problem
