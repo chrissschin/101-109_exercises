@@ -16,9 +16,12 @@
 
 # ls way
 def sum(number)
-  number.to_s.chars.map(&:to_i).reduce(:+)
+  number.to_s.chars.map(&:to_i).reduce(:+) # <= pass in the enumerable. + or - at every index
 end
 
 sum(45)
 
 sum(123_123)
+
+# turn string into integer array
+"5 65".scan(/\w/).map(&:to_i)
