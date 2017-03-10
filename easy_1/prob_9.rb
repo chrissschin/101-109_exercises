@@ -14,10 +14,18 @@
 # end
 
 
-# ls way
-def sum(number)
-  number.to_s.chars.map(&:to_i).reduce(:+) # <= pass in the enumerable. + or - at every index
+
+# turn num to string 
+# chars turns string into an array short for str.each_char.to_a
+# map turns each string into an Integer
+# reduce adding each interger together
+
+def sum(num)
+  num.to_s.chars.map(&:to_i).reduce(:+)
 end
+
+puts sum(496)
+
 
 sum(45)
 
