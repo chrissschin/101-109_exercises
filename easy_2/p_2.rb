@@ -1,6 +1,30 @@
+# my ans
+SQMETER_TO_SQFEET = 10.7639
+
+def sq_meter(length, width)
+  (length * width).round(2)
+end
+
+def sq_feet(length,width)
+  ((length * width) * SQMETER_TO_SQFEET).round(2)
+end
+
+puts ">>length?"
+
+length = gets.chomp().to_f
+
+puts ">>width"
+
+width  = gets.chomp().to_f
+
+puts "area is #{sq_meter(length,width)}m or #{sq_feet(length,width)}ft"
 
 
 
+# ls school
+
+# they use the method #round() to move the decimal to places
+# 
 SQMETERS_TO_SQFEET = 10.7639
 
 puts '==> Enter the length of the room in meters: '
