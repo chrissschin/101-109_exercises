@@ -34,3 +34,6 @@ working with requirements not so explicit examples. like when they just give you
     output :
         - ask more specifically whats returned on the output
     - model the problem
+    
+##PEDAC
+PEDAC stands for: Understand the Problem, Write Examples/Test Cases, Data Structure(input/ output), Algorithm, and Code.
