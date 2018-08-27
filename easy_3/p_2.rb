@@ -32,4 +32,4 @@ puts "first num"
 num_1 = gets.chomp.to_i
 puts "second num"
 num_2 = gets.chomp.to_i
-print_results(num_1, num_2)
+print_results(num_1, num_2)(
