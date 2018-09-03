@@ -12,3 +12,9 @@
 # xor?(5.even?, 4.odd?) == false
 #
 
+def xor?(num1, num2)
+  return puts true if num1.even? || num2.even?
+  puts false
+end
+
+xor?(1, 3)
